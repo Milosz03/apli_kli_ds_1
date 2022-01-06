@@ -4,6 +4,7 @@ const PORT = process.env.PORT || 3000; // bardzo istotna linijka - port zostaje 
 
 app.get("/", function (req, res) {
   res.send("<h1>my app on heroku! mała zmiana w pliku</h1>");
+
 });
 
 app.listen(PORT, function () {
